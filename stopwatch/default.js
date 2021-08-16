@@ -84,9 +84,6 @@ function reset() {
     resetmsg();
     const timerhtml = document.getElementById('timer');
     timerhtml.innerHTML = timevar.h + ':' + timevar.m + ':' + timevar.s;
-
-    // timer.innerHTML = '13333';
-    chrome.storage.sync.set({ 'timer': { "hr": timevar.h, "m": timevar.m, "s": timevar.s } });
 }
 
 chrome.runtime.onMessage.addListener(callback);
