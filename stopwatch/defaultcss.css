@@ -1,0 +1,35 @@
+h1
+{
+color:rgb(111, 0, 255);
+text-align: center;
+}
+body
+{
+    background-color:rgba(108, 212, 219, 0.363);
+}
+button{
+    background-color:rgba(196, 94, 209, 0.37);
+    color: rgb(111, 0, 255);
+   
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    width: 130px;
+    margin: 2px 2px;
+    transition-duration: 0.2s;
+    /* float: left; */
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(111, 0, 255);
+}
+button:active {
+    background-color: rgb(255, 255, 255);
+   
+    
+    box-shadow: 0 2px rgba(196, 94, 209, 0.37);
+   
+  }
+  #timer {
+font-style:oblique;
+}
